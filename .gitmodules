@@ -1,0 +1,3 @@
+[submodule "DevelopProject/Packages/SyntaxHighlightEditor"]
+	path = DevelopProject/Packages/SyntaxHighlightEditor
+	url = git@github.com:Tanakancolle/SyntaxHighlightEditor.git
