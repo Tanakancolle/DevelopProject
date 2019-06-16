@@ -1,3 +1,6 @@
 [submodule "DevelopProject/Packages/SyntaxHighlightEditor"]
 	path = DevelopProject/Packages/SyntaxHighlightEditor
 	url = git@github.com:Tanakancolle/SyntaxHighlightEditor.git
+[submodule "DevelopProject/Packages/ReleaseExecutor"]
+	path = DevelopProject/Packages/ReleaseExecutor
+	url = git@github.com:Tanakancolle/UnityReleaseExecutor.git
