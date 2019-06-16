@@ -4,3 +4,6 @@
 [submodule "DevelopProject/Packages/ReleaseExecutor"]
 	path = DevelopProject/Packages/ReleaseExecutor
 	url = git@github.com:Tanakancolle/UnityReleaseExecutor.git
+[submodule "DevelopProject/Packages/TemplateEditor"]
+	path = DevelopProject/Packages/TemplateEditor
+	url = git@github.com:Tanakancolle/UnityTemplateEditor.git
