@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ba47d80fce9c40b9b458f4f0fe756f0, type: 3}
   m_Name: ExpoterSetting
   m_EditorClassIdentifier: 
-  ExportName: ReleaseExecutor
+  ExportName: SyntaxHilightEditor
   TargetPaths:
-  - Assets/ReleaseExecutor
+  - Assets/SyntaxHilightEditor
   Options: 02000000

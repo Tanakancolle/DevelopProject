@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecf3fe4cd175c4d84a883ff1028ab983, type: 3}
   m_Name: ReleaseSetting
   m_EditorClassIdentifier: 
-  RepositoryPath: Tanakancolle/UnityReleaseExecutor
-  ChangeLogPath: Assets/ReleaseExecutor/CHANGELOG.md
+  RepositoryPath: Tanakancolle/SyntaxHighlightEditor
+  ChangeLogPath: Assets/SyntaxHilightEditor/CHANGELOG.md
   LogStartPattern: '### {tag}'
   LogEndPattern: '###'
   UploadPackage:
-  - {fileID: 11400000, guid: f81e9e9c072e046a38e298f2b22a65bf, type: 2}
+  - {fileID: 11400000, guid: 0363481b209794a2892bb01a9c8aa6cd, type: 2}

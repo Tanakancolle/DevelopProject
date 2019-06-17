@@ -1,9 +1,9 @@
-[submodule "DevelopProject/Assets/SyntaxHighlightEditor"]
-	path = DevelopProject/Assets/SyntaxHighlightEditor
-	url = git@github.com:Tanakancolle/SyntaxHighlightEditor.git
 [submodule "DevelopProject/Assets/ReleaseExecutor"]
 	path = DevelopProject/Assets/ReleaseExecutor
 	url = git@github.com:Tanakancolle/UnityReleaseExecutor.git
 [submodule "DevelopProject/Assets/TemplateEditor"]
 	path = DevelopProject/Assets/TemplateEditor
 	url = git@github.com:Tanakancolle/UnityTemplateEditor.git
+[submodule "DevelopProject/Assets/SyntaxHilightEditor"]
+	path = DevelopProject/Assets/SyntaxHilightEditor
+	url = git@github.com:Tanakancolle/SyntaxHighlightEditor.git
