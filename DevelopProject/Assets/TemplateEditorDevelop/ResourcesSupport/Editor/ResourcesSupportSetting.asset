@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -18,11 +19,15 @@ MonoBehaviour:
     static readonly string[] {0}Paths = new string[]\n    {{\n        {1},\n    }};\n:Paths>}\n{<Repeat:\n
     \   public static {0} {1}({2}Name type)\n    {{\n        return Resources.{1}<{2}>({2}Paths[(int)type]);\n
     \   }}\n:Methods>}\n}"
+  CodeAreaMinHeight: 0
   Overwrite: 1
   Chain:
   - {fileID: 11400000, guid: 2c9e7c9a1b39a426c8897063ec0a255c, type: 2}
   DuplicatePrefab: {fileID: 0}
   AttachTarget: {fileID: 0}
-  PrefabCreatePath: 
+  PrefabPath: 
+  PrefabName: 
   AssetsMenuItem: 0
   Description: 
+  IsFoldouts: 010101
+  ScrollPos: {x: 0, y: 0}
