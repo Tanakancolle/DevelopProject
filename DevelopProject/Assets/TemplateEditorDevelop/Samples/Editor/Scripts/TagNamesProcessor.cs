@@ -10,7 +10,7 @@ namespace TemplateEditor.Sample
 
         #region IProcessChain implementation
 
-        public void Process(ProcessMetadata metadata, Dictionary<string, object> result)
+        public void Process(ProcessMetadata metadata, ProcessDictionary result)
         {
             var list = new List<string>(InternalEditorUtility.tags.Length);
             foreach (var tag in InternalEditorUtility.tags)
@@ -18,7 +18,7 @@ namespace TemplateEditor.Sample
                 list.Add(tag);
             }
 
-            result.Add(this.ConvertReplaceWord(ReplaceWords[0], result), list);
+            result.Add(ReplaceWords[0], list);
         }
 
         public string[] GetReplaceWords()
@@ -29,11 +29,6 @@ namespace TemplateEditor.Sample
         public string GetDescription()
         {
             return "タグ名をリストで渡します";
-        }
-
-        public ProcessFileType GetFileType()
-        {
-            return ProcessFileType.Class;
         }
 
         #endregion

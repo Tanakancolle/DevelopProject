@@ -11,9 +11,9 @@ namespace TemplateEditor
             "ProcessChainSample",
         };
 
-        public void Process(ProcessMetadata metadata, Dictionary<string, object> result)
+        public void Process(ProcessMetadata metadata, ProcessDictionary result)
         {
-            result.Add(this.ConvertReplaceWord(ReplaceWords[0], result), "Test");
+            result.Add(ReplaceWords[0], "Test");
         }
 
         public string[] GetReplaceWords()
@@ -24,11 +24,6 @@ namespace TemplateEditor
         public string GetDescription()
         {
             return "'Test' を受け渡します";
-        }
-
-        public ProcessFileType GetFileType()
-        {
-            return ProcessFileType.Class;
         }
     }
 }

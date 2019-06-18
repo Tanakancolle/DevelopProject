@@ -1,10 +1,11 @@
-﻿using UnityEngine;
+﻿#pragma warning disable CS0649
+
+using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 using System.Text.RegularExpressions;
 using System;
-using UnityEngine.Serialization;
 
 namespace TemplateEditor
 {
@@ -28,7 +29,7 @@ namespace TemplateEditor
 
         #region IProcessChain implementation
 
-        public void Process(ProcessMetadata metadata, Dictionary<string, object> result)
+        public void Process(ProcessMetadata metadata, ProcessDictionary result)
         {
             // ファイルパス取得
             var removeWord = "Resources/";
@@ -104,7 +105,7 @@ namespace TemplateEditor
                 }
 
                 result.Add(
-                    this.ConvertReplaceWord(ReplaceWords[(int) ReplaceWordType.Usings], result),
+                    ReplaceWords[(int) ReplaceWordType.Usings],
                     usingNames.ToArray()
                 );
             }
@@ -112,7 +113,7 @@ namespace TemplateEditor
             // Enums
             {
                 result.Add(
-                    this.ConvertReplaceWord(ReplaceWords[(int) ReplaceWordType.Enums], result),
+                    ReplaceWords[(int) ReplaceWordType.Enums],
                     fileNamesList
                 );
             }
@@ -120,7 +121,7 @@ namespace TemplateEditor
             // Paths
             {
                 result.Add(
-                    this.ConvertReplaceWord(ReplaceWords[(int) ReplaceWordType.Paths], result),
+                    ReplaceWords[(int) ReplaceWordType.Paths],
                     filePathsList
                 );
             }
@@ -128,7 +129,7 @@ namespace TemplateEditor
             // Methods
             {
                 result.Add(
-                    this.ConvertReplaceWord(ReplaceWords[(int) ReplaceWordType.Methods], result),
+                    ReplaceWords[(int) ReplaceWordType.Methods],
                     methodsList
                 );
             }
@@ -142,11 +143,6 @@ namespace TemplateEditor
         public string GetDescription()
         {
             return "設定に従い、Resourcesフォルダ内のアセット情報を受け渡します";
-        }
-
-        public ProcessFileType GetFileType()
-        {
-            return ProcessFileType.ScriptableObject;
         }
 
         #endregion
