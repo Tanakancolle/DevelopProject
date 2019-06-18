@@ -23,7 +23,7 @@ namespace TemplateEditor
 
         public string GetDescription()
         {
-            return "'Test' を受け渡します";
+            return "Set 'Replace Word'";
         }
     }
 }

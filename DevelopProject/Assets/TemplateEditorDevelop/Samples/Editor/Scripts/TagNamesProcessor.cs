@@ -28,7 +28,7 @@ namespace TemplateEditor.Sample
 
         public string GetDescription()
         {
-            return "タグ名をリストで渡します";
+            return "Set unity tags";
         }
 
         #endregion

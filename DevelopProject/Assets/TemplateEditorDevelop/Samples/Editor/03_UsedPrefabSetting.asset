@@ -10,22 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56a3a9f3b9043415681fb03d3faa50c2, type: 3}
-  m_Name: UsedVariableSetting
+  m_Name: UsedPrefabSetting
   m_EditorClassIdentifier: 
-  Path: Assets/{<FolderName>}
-  ScriptName: '{<ScriptName>}.cs'
-  Code: 'public class {<ScriptName>}
+  Path: Assets/TemplateEditorSamples
+  ScriptName: Minimum.cs
+  Code: 'using UnityEngine;
+
+
+    public class Minimum : MonoBehaviour
 
     {
 
     }'
   CodeAreaMinHeight: 0
-  CodeAreaMaxHeight: 0
-  Overwrite: 1
+  CodeAreaMaxHeight: 100
+  Overwrite: 0
   Chain: []
-  DuplicatePrefab: {fileID: 0}
-  AttachTarget: {fileID: 0}
-  PrefabPath: 
+  DuplicatePrefab: {fileID: 1546374343473546, guid: 26e5efc4684a549faa5fdd44351243cf,
+    type: 3}
+  AttachTarget: {fileID: 1546374343473546, guid: 26e5efc4684a549faa5fdd44351243cf,
+    type: 3}
+  PrefabPath: Assets/TemplateEditorSamples
   PrefabName: 
   AssetsMenuItem: 0
   Description: 

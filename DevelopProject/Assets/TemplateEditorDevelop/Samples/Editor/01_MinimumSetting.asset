@@ -4,21 +4,30 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56a3a9f3b9043415681fb03d3faa50c2, type: 3}
-  m_Name: SceneNamesEnumSetting
+  m_Name: MinimumSetting
   m_EditorClassIdentifier: 
-  Path: 
-  ScriptName: Scenes.cs
-  Code: "public enum SceneNames\n{\n{<Join:\t:,\\n:Scenes>},\n}"
+  Path: Assets/TemplateEditorSamples
+  ScriptName: Minimum.cs
+  Code: 'public class Minimum
+
+    {
+
+    }'
+  CodeAreaMinHeight: 80
+  CodeAreaMaxHeight: 80
   Overwrite: 1
-  Chain:
-  - {fileID: 11500000, guid: 280a0e327a86743f389750222ff5bef5, type: 3}
-  DuplicatePrefab: {fileID: 1207177795992696, guid: c6f8efa6c2f484565ac96fce0f92eddd,
-    type: 2}
+  Chain: []
+  DuplicatePrefab: {fileID: 0}
   AttachTarget: {fileID: 0}
-  PrefabCreatePath: 
+  PrefabPath: 
+  PrefabName: 
   AssetsMenuItem: 0
+  Description: 
+  IsFoldouts: 010000
+  ScrollPos: {x: 0, y: 0}
