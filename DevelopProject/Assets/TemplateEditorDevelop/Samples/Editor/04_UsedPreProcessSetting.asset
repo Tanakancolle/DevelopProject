@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56a3a9f3b9043415681fb03d3faa50c2, type: 3}
-  m_Name: UsedPreProcessSetting
+  m_Name: 04_UsedPreProcessSetting
   m_EditorClassIdentifier: 
   Path: Assets/TemplateEditorSamples
-  ScriptName: '{<ScriptName>}.cs'
-  Code: "public static class {<ScriptName>}\n{\n    public const string PreProcessText
+  ScriptName: UsedPreProcess.cs
+  Code: "public static class UsedPreProcess\n{\n    public const string PreProcessText
     = \"{<ProcessChainSample>}\";\n}"
   CodeAreaMinHeight: 0
   CodeAreaMaxHeight: 80
@@ -27,5 +27,5 @@ MonoBehaviour:
   PrefabName: 
   AssetsMenuItem: 0
   Description: 
-  IsFoldouts: 010101
+  IsFoldouts: 010001
   ScrollPos: {x: 0, y: 0}

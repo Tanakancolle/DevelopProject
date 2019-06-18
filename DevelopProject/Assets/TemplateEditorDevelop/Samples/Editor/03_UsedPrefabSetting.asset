@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56a3a9f3b9043415681fb03d3faa50c2, type: 3}
-  m_Name: UsedPrefabSetting
+  m_Name: 03_UsedPrefabSetting
   m_EditorClassIdentifier: 
   Path: Assets/TemplateEditorSamples
   ScriptName: Minimum.cs
@@ -28,8 +28,7 @@ MonoBehaviour:
   Chain: []
   DuplicatePrefab: {fileID: 1546374343473546, guid: 26e5efc4684a549faa5fdd44351243cf,
     type: 3}
-  AttachTarget: {fileID: 1546374343473546, guid: 26e5efc4684a549faa5fdd44351243cf,
-    type: 3}
+  AttachTarget: {fileID: 0}
   PrefabPath: Assets/TemplateEditorSamples
   PrefabName: 
   AssetsMenuItem: 0

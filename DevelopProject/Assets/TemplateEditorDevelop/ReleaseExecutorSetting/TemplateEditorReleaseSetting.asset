@@ -19,3 +19,4 @@ MonoBehaviour:
   UploadPackage:
   - {fileID: 11400000, guid: 6922d49a8eb714eb0abb0f858d98a94e, type: 2}
   - {fileID: 11400000, guid: 2cd53baca7e994be7ac80d0c38826025, type: 2}
+  - {fileID: 11400000, guid: d34fc947918984d0ab43c2ab8c83fbab, type: 2}
