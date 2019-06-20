@@ -18,12 +18,18 @@ MonoBehaviour:
 
     {
 
-    {<Repeat:    public const string {0} = "{0}";:Tags>}
+    {<Repeat:    public {\<Pre>\} string {0} = "{0}"
+
+    {{
+
+    { aaba }
+
+    }};:Tags>}
 
     }'
   CodeAreaMinHeight: 80
   CodeAreaMaxHeight: 80
-  Overwrite: 0
+  Overwrite: 1
   Chain:
   - {fileID: 11500000, guid: 8e8a660e836d1470892a2fdafa033442, type: 3}
   DuplicatePrefab: {fileID: 0}
@@ -32,5 +38,5 @@ MonoBehaviour:
   PrefabName: 
   AssetsMenuItem: 0
   Description: 
-  IsFoldouts: 010000
-  ScrollPos: {x: 0, y: 0}
+  IsFoldouts: 010100
+  ScrollPos: {x: 0, y: 3}
