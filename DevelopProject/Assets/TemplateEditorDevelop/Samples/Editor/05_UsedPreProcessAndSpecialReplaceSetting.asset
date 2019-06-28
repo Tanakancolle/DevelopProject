@@ -18,17 +18,11 @@ MonoBehaviour:
 
     {
 
-    {<Repeat:    public {\<Pre>\} string {0} = "{0}"
-
-    {{
-
-    { aaba }
-
-    }};:Tags>}
+    {<Repeat:    public const string {0} = "{0}";:Tags>}
 
     }'
   CodeAreaMinHeight: 80
-  CodeAreaMaxHeight: 80
+  CodeAreaMaxHeight: 88.45
   Overwrite: 1
   Chain:
   - {fileID: 11500000, guid: 8e8a660e836d1470892a2fdafa033442, type: 3}
@@ -39,4 +33,4 @@ MonoBehaviour:
   AssetsMenuItem: 0
   Description: 
   IsFoldouts: 010100
-  ScrollPos: {x: 0, y: 3}
+  ScrollPos: {x: 0, y: 0}
