@@ -4,6 +4,3 @@
 [submodule "DevelopProject/Assets/TemplateEditor"]
 	path = DevelopProject/Assets/TemplateEditor
 	url = git@github.com:Tanakancolle/UnityTemplateEditor.git
-[submodule "DevelopProject/Assets/SyntaxHilightEditor"]
-	path = DevelopProject/Assets/SyntaxHilightEditor
-	url = git@github.com:Tanakancolle/SyntaxHighlightEditor.git
