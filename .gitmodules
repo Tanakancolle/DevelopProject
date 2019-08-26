@@ -4,3 +4,6 @@
 [submodule "DevelopProject/Assets/TemplateEditor"]
 	path = DevelopProject/Assets/TemplateEditor
 	url = git@github.com:Tanakancolle/UnityTemplateEditor.git
+[submodule "DevelopProject/Assets/SpeechToText"]
+	path = DevelopProject/Assets/SpeechToText
+	url = git@github.com:Tanakancolle/UnitySpeechToText.git
